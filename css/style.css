@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 ,
+h3 {
+    margin: 0;
+}
+
+h2 a,
+h3 a{
+    color: #222;
+
+}
+
+h2 {
+    text-transform: uppercase;
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+.testimonial-item {
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.testimonial-thum {
+    padding: 10px;
+}
+#testimonial {
+    background: #48dbfb;
+    text-align: center;
+    height: 100vh;
+}
+
+.section-padding {
+    padding: 60px 0 ;
+}
+
+.testimonial-thum img {
+    width: inherit !important;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.testimonial-item {
+    background: #fff;
+}
+
+.testimonial-stars span{
+    color: #ff7979;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+}
+.owl-theme .owl-dots .owl-dot.active span:focus {
+    outline: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #48dbfb;
+}
+#testimonial .owl-theme .owl-dots .owl-dot span {
+    border: 2px solid #fff;
+}
+
+#testimonial .owl-theme .owl-dots .owl-dot:hover span {
+    background: #48dbfb;
+}
+
+/* Responsibe */
+
+@media screen and (max-width: 992px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
